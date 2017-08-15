@@ -1,0 +1,9 @@
+# This is used to create a cron job #
+# This Job will run every day at 23 hours and 59 minutes #
+crontab -e
+59 23 * * * /root/backup.sh
+
+# To Check if the entry is added, type the following #
+crontab -l
+
+# in crontab, -e is to edit and -l is to list #

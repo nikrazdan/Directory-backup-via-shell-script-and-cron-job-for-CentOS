@@ -1,0 +1,12 @@
+# Create a text file that stores a list of directories that needs to be backedup #
+# I have added /home, /etc and /boot #
+# Name of the file is backuplist.txt #
+# Create the file under /root #
+
+cd /root
+vi backuplist.txt
+# Press i to insert the following data in the file backuplist.txt#
+/home 
+/etc/ 
+/boot
+# Press "esc" the type ":wq!" to save and quit the file #
